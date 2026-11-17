@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transaction-risk-flagging-api"
+version = "1.0.0"
+description = "API for evaluating financial transaction risk"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi",
+    "httpx",
+    "pydantic",
+    "uvicorn"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["transaction_risk_api*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
