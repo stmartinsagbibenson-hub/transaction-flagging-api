@@ -81,7 +81,6 @@
       "transaction_type": "deposit",
       "timestamp": "2026-11-17T18:45:00+01:00"
     },
-
     {
       "transaction_id": "TXN011",
       "account_id": "ACC002",
@@ -162,7 +161,6 @@
       "transaction_type": "transfer",
       "timestamp": "2026-11-17T18:30:00+01:00"
     },
-
     {
       "transaction_id": "TXN021",
       "account_id": "ACC003",
@@ -243,7 +241,6 @@
       "transaction_type": "deposit",
       "timestamp": "2026-11-17T15:00:00+01:00"
     },
-
     {
       "transaction_id": "TXN031",
       "account_id": "ACC004",
